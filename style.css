@@ -19,12 +19,15 @@ body {
 .contenedor__Principal {
     display: flex;
     align-items: center;
-    margin: 5%;
+    margin: 10% 15%;
     justify-content: space-between;
 }
 
 .descripcion {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .descripcion__Titulo {
@@ -35,4 +38,22 @@ body {
 .descripcion__Cuerpo {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
+}
+
+.contenedor__enlaces {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlaces_link {
+    width: 280px;
+    background-color: yellow;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
 }
