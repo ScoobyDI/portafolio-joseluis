@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --color-primario: #000000;
-    --color-secundario: #F6F6F6;
+    --color-primario: #000000;          /*  para poder cambiar directamente los colores y se aplique en todo el css */
+    --color-secundario: #F6F6F6;        /*  se usa var(--color-secundario) */
     --color-terciario: rgb(255, 255, 0);
 
     --fuente-monserrat: 'Montserrat', sans-serif;
