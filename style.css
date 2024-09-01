@@ -5,20 +5,34 @@
     padding: 0px;
 }
 
+.menu {
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.header_menu_link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: yellow;
+    text-decoration: none;
+}
+
+
 body {
     background-color: black;
     color: #F6F6F6;
     box-sizing: border-box;
 }
 
-.titulo__resaltante {
-    color: yellow;
-}
-
 .contenedor__Principal {
     display: flex;
     align-items: center;
-    margin: 10% 15%;
+    padding: 7% 15%;               /*  cambio de margin a padding para que no este tan lejos el inicio del footer */
     justify-content: space-between;
 }
 
@@ -32,6 +46,10 @@ body {
 .descripcion__Titulo {
     font-size: 36px;
     font-family: "Krona One", sans-serif;
+}
+
+.titulo__resaltante {
+    color: yellow;
 }
 
 .descripcion__Cuerpo {
