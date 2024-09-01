@@ -8,7 +8,6 @@
 body {
     background-color: black;
     color: #F6F6F6;
-    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -42,18 +41,43 @@ body {
 
 .contenedor__enlaces {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.subtitulo__enlaces {
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .enlaces_link {
-    width: 280px;
-    background-color: yellow;
+    width: 378px;
+    background-color: black;
     text-align: center;
     padding: 21.5px 0;
-    border-radius: 16px;
+    border: 2px solid yellow;
+    border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
+    color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.enlaces_link:hover {
+    background-color: #272727;
+}
+
+footer {
+    background-color: yellow;
     color: black;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }
