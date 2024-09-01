@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --color-primario: #000000;
+    --color-secundario: #F6F6F6;
+    --color-terciario: rgb(255, 255, 0);
+
+    --fuente-monserrat: 'Montserrat', sans-serif;
+    --fuente-krona: 'Krona One', sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -32,7 +41,7 @@ body {
 .contenedor__Principal {
     display: flex;
     align-items: center;
-    padding: 7% 15%;               /*  cambio de margin a padding para que no este tan lejos el inicio del footer */
+    padding: 6% 15%;               /*  cambio de margin a padding para que no este tan lejos el inicio del footer */
     justify-content: space-between;
 }
 
